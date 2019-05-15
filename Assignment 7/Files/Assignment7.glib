@@ -1,0 +1,13 @@
+##OpenGL GLIB
+Perspective 70
+LookAt  0 0 3     0 0 0    0 1 0
+
+Vertex   Block.vert
+Geometry Block.geom
+Fragment Block.frag
+Program Blocky  				\
+	uModelCoords <true>		\
+	uLevel <0 3 3>			\
+	uQuantize <2. 50. 50.>	
+
+Obj pigY.obj
