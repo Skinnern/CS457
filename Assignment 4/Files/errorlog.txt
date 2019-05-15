@@ -1,0 +1,6 @@
+
+ERROR: 0:63: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:63: 'texture' : function is not known 
+ERROR: 0:62: '=' :  cannot convert from 'const highp float' to '4-component vector of highp float'
+
+
