@@ -1,0 +1,35 @@
+##OpenGL GLIB
+
+Perspective 70
+LookAt 0 0 3  0 0 0  0 1 0
+
+Texture2D 1 Old_splatmap.bmp
+Texture2D 3 FinalProject-20190311T151536Z-002.bmp
+Texture2D 2 BrickHeight.bmp
+Texture2D 5 FinalProject-20190311T151536Z-001.bmp
+Texture2D 4 BrickAlbedo.bmp
+Texture2D 7 FinalProject-20190311T151536Z-003.bmp
+Texture2D 6 BrickNormal.bmp
+Texture2D 9 FinalProject-20190311T151536Z-004.bmp
+Texture2D 8 BrickRoughness.bmp
+
+Vertex		finalBlending.vert
+Fragment	finalBlending.frag
+Program		Final Project				\
+		splatmap 1						\
+		mat1Height 2					\
+		mat2Height 3					\
+		mat1Diffuse 4					\
+		mat2Diffuse 5					\
+		mat1Normal 6					\
+		mat2Normal 7					\
+		mat1Roughness 8					\
+		mat2Roughness 9					\
+		LightX <-20. 5. 20.>   			\
+		LightY <-20. 10. 20.>			\
+		LightZ <-20. 20. 20.>			\
+		LightColor {1. 1 1 1.}	\
+		AmbientColor {1, 1, 1, 1.}
+
+
+cube
